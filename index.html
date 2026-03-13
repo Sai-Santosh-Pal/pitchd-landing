@@ -10,26 +10,39 @@
 <link href="https://fonts.googleapis.com/css2?family=Inter+Tight:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 </head>
 <body class="bg-black m-0 p-0 text-white" style="font-family: 'Inter Tight';">
-    <div class="h-[10vh] flex items-center justify-around">
-        <p class="font-bold text-xl">Pitchd</p>
+    <div class="h-[10vh] mt-2 flex items-center justify-around">
+        <p class="font-[400] text-xl">Pitchd</p>
         <div class="flex items-center">
             <a href="#" class="hidden md:block lg:block mr-[10%]">Home</a>
             <a href="#" class="hidden md:block lg:block mr-[10%]">Features</a>
             <a href="#" class="hidden md:block lg:block mr-[10%]">Pricing</a>
-            <a href="#" class="cursor-pointer p-3 bg-white text-black">
-                <button>Download</button>
+            <a href="#" class="cursor-pointer p-3 lg:w-45 md:w-45 bg-white text-black">
+                <button>Sign Up</button>
             </a>
         </div>
     </div>
-    
-
-
-
-    <div class="h-[90vh]">
-        
+    <div class="h-[90vh] flex flex-col items-center justify-center">
+        <div class="title text-center text-5xl">
+            The <i class="font-[800]">Deck</i><br class="lg:hidden md:hidden"> That Gets You<br>The <i class="font-[800]">Funding</i>
+        </div>
+        <div class="subtitle text-center text-gray-400 mt-5">
+            not the most beautiful, not the most elegant<br> but still the most impressive
+        </div>
+        <div class="flex mt-7 gap-3">
+            <a href="#" class="cursor-pointer w-20 p-3 lg:w-30 md:w-30 lg:flex lg:items-center lg:justify-center md:flex md:items-center md:justify-center md:text-center bg-white text-black">
+                <button>Sign Up</button>
+            </a>
+            <a href="#" class="cursor-pointer text-gray-400 p-3">Learn More</a>
+        </div>
     </div>
     <div class="h-[90vh]">
         
     </div>
 </body>
+<style>
+    *::selection {
+        background: #fff;
+        color: #000;
+    }
+</style>
 </html>
